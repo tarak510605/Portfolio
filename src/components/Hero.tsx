@@ -6,7 +6,7 @@ const Hero: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isTyping, setIsTyping] = useState(true);
 
-  const texts = ['Frontend Developer', 'React Enthusiast', 'Problem Solver', 'Quick Learner'];
+  const texts = ['Full Stack Developer', 'React Enthusiast', 'Problem Solver'];
 
   useEffect(() => {
     const currentText = texts[currentIndex];

@@ -57,7 +57,7 @@ const About: React.FC = () => {
             </p>
             <div className="pt-4">
               <a
-                href="https://drive.google.com/file/d/1UKv2TkNlJUNNlPA1AOkFAQcdU8mHRO7I/view?usp=sharing"
+                href="https://drive.google.com/file/d/1kBdNoeje0H7vgXgAA1iwY5mW16Nq-KHP/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 hover:scale-105"

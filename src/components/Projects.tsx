@@ -3,6 +3,17 @@ import { Github, Eye } from 'lucide-react';
 
 const Projects: React.FC = () => {
   const [selectedProject, setSelectedProject] = useState<number | null>(null);
+  const [expandedDescriptions, setExpandedDescriptions] = useState<Set<number>>(new Set());
+
+  const toggleDescription = (index: number) => {
+    const newExpanded = new Set(expandedDescriptions);
+    if (newExpanded.has(index)) {
+      newExpanded.delete(index);
+    } else {
+      newExpanded.add(index);
+    }
+    setExpandedDescriptions(newExpanded);
+  };
 
   const projects = [
     {
@@ -170,9 +181,19 @@ const Projects: React.FC = () => {
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">
                   {project.title}
                 </h3>
-                <p className="text-gray-600 dark:text-gray-400 mb-4 line-clamp-3">
-                  {project.description}
-                </p>
+                <div className="mb-4">
+                  <p className={`text-gray-600 dark:text-gray-400 ${expandedDescriptions.has(index) ? '' : 'line-clamp-3'}`}>
+                    {project.description}
+                  </p>
+                  {project.description.length > 120 && (
+                    <button
+                      onClick={() => toggleDescription(index)}
+                      className="text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 text-sm font-medium mt-2 transition-colors duration-200"
+                    >
+                      {expandedDescriptions.has(index) ? 'Show less' : 'Show more'}
+                    </button>
+                  )}
+                </div>
                 
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.technologies.map((tech, techIndex) => (

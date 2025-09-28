@@ -76,15 +76,15 @@ const Projects: React.FC = () => {
       githubUrl: 'https://github.com/tarak510605/interview-ai',
       category: 'Web App'
     },
-    {
-      title: 'Personal Portfolio Website',
-      description: 'A responsive portfolio website built with React and Tailwind CSS. Features smooth animations, dark mode toggle, and mobile-first design approach.',
-      image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=600',
-      technologies: ['React', 'Tailwind CSS', 'JavaScript', 'Responsive Design'],
-      liveUrl: '#',
-      githubUrl: '#',
-      category: 'Frontend'
-    },
+    // {
+    //   title: 'Personal Portfolio Website',
+    //   description: 'A responsive portfolio website built with React and Tailwind CSS. Features smooth animations, dark mode toggle, and mobile-first design approach.',
+    //   image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=600',
+    //   technologies: ['React', 'Tailwind CSS', 'JavaScript', 'Responsive Design'],
+    //   liveUrl: '#',
+    //   githubUrl: '#',
+    //   category: 'Frontend'
+    // },
     // {
       //   title: 'Recipe Finder',
       //   description: 'A web application that helps users find recipes based on available ingredients. Built as a learning project to practice API integration.',

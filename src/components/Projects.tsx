@@ -56,7 +56,7 @@ const Projects: React.FC = () => {
       technologies: ['React.js', 'API Integration', 'Tailwind CSS'],
       liveUrl: 'https://weather-forcast08.netlify.app/',
       githubUrl: 'https://github.com/tarak510605/Weather-Forecast',
-      category: 'Web App'
+      category: 'Frontend'
     },
     // {
     //   title: 'Calculator App',

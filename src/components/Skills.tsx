@@ -111,7 +111,7 @@ const Skills: React.FC = () => {
         {/* Statistics */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {[
-            { number: '6+', label: 'Projects Built' },
+            { number: '5+', label: 'Projects Built' },
             { number: 'Fresher', label: 'Persuing' },
             { number: '100%', label: 'Dedication' },
             { number: '15+', label: 'Technologies Learned' },

@@ -45,7 +45,7 @@ const Projects: React.FC = () => {
       image:
       'https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&w=600',
       technologies: ['Node.js', 'Express.js', 'Socket.IO', 'JavaScript', 'HTML5', 'CSS3'],
-      liveUrl: 'https://chat-app-0820.onrender.com/', // ✅ you already deployed this
+      liveUrl: 'https://chat-app-vert-ten-73.vercel.app/', // ✅ you already deployed this
       githubUrl: 'https://github.com/tarak510605/Chat-App',
       category: 'Web App',
     },

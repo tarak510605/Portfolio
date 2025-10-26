@@ -17,6 +17,17 @@ const Projects: React.FC = () => {
 
   const projects = [
     {
+      title: 'PropSense AI - Generative AI Property Insights Platform',
+      description:
+      'Built PropSense AI, a generative-AI driven property insights platform integrating Google Gemini with a React-Node-MongoDB stack. Engineered prompt templates and response parsing logic to convert free-text outputs into structured JSON valuations (price estimate, pros/cons, recommendations). Designed secure server-side orchestration for model requests using key management, rate-limit protection, and authenticated REST APIs.',
+      image:
+      'https://images.pexels.com/photos/280229/pexels-photo-280229.jpeg?auto=compress&cs=tinysrgb&w=600',
+      technologies: ['React', 'Node.js', 'MongoDB', 'Google Gemini', 'REST APIs'],
+      liveUrl: 'https://github.com/tarak510605/PropSense-AI', 
+      githubUrl: 'https://github.com/tarak510605/PropSense-AI', 
+      category: 'Web App',
+    },
+    {
       title: 'ShelfX - Book Rental & Sales Platform',
       description:
       'A full-stack platform connecting sellers and buyers for renting or purchasing books. Features an admin dashboard, scalable architecture, and responsive UI.',

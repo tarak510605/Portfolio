@@ -16,12 +16,12 @@ const Skills: React.FC = () => {
   
 
   const technologies = [
-    'JavaScript', 'React.js (Hooks, Context API, Redux)', 'HTML5', 'CSS3',
-    'Python (Flask, FastAPI)', 'SQL (MySQL)', 'MongoDB (Mongoose)',
-    'Node.js', 'Express.js (JWT, Middleware, REST APIs)',
-    'REST APIs', 'GraphQL', 'WebSockets (Socket.IO)', 'Postman', 'Swagger',
-    'Git', 'GitHub', 'GitHub Actions (CI/CD)', 'Docker', 'GCP (Compute Engine, Cloud Storage, BigQuery)',
-    'Tailwind CSS', 'Responsive Design'
+    'JavaScript', 'React.js', 'HTML5', 'CSS3',
+    'Python', 'SQL', 'MongoDB',
+    'Node.js', 'Express.js',
+    'WebSockets (Socket.IO)',
+    'Git', 'Docker', 'GCP',
+    'Tailwind CSS'
   ];
   
 

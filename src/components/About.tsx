@@ -4,26 +4,26 @@ import profilePic from '../../pic2.jpeg';
 
 const About: React.FC = () => {
   const features = [
-    {
-      icon: Code,
-      title: 'Clean Code',
-      description: 'Learning to write clean, readable code following best practices and industry standards.',
-    },
-    {
-      icon: Palette,
-      title: 'Beautiful Design',
-      description: 'Passionate about creating intuitive and visually appealing user interfaces.',
-    },
-    {
-      icon: Zap,
-      title: 'Fast Performance',
-      description: 'Focused on building efficient applications with optimal performance in mind.',
-    },
-    {
-      icon: Heart,
-      title: 'User-Centered',
-      description: 'Committed to creating user-friendly applications with great user experience.',
-    },
+    // {
+    //   icon: Code,
+    //   title: 'Clean Code',
+    //   description: 'Learning to write clean, readable code following best practices and industry standards.',
+    // },
+    // {
+    //   icon: Palette,
+    //   title: 'Beautiful Design',
+    //   description: 'Passionate about creating intuitive and visually appealing user interfaces.',
+    // },
+    // {
+    //   icon: Zap,
+    //   title: 'Fast Performance',
+    //   description: 'Focused on building efficient applications with optimal performance in mind.',
+    // },
+    // {
+    //   icon: Heart,
+    //   title: 'User-Centered',
+    //   description: 'Committed to creating user-friendly applications with great user experience.',
+    // },
   ];
 
   return (

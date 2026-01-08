@@ -21,7 +21,7 @@ const Skills: React.FC = () => {
     'Node.js', 'Express.js',
     'WebSockets (Socket.IO)',
     'Git', 'Docker', 'GCP',
-    'Tailwind CSS'
+    'Tailwind CSS','Langchain'
   ];
   
 
